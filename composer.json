@@ -1,0 +1,29 @@
+{
+  "name": "fk/yii2-pingpp",
+  "type": "library",
+  "description": "Ping++ with yii2 wrapper",
+  "keywords": [
+    "pingpp"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Felix"
+    }
+  ],
+  "require": {
+    "php": ">=5.4",
+    "pingplusplus/pingpp-php": "2.1.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "fk\\pingpp\\": ""
+    }
+  },
+  "minimum-stability": "dev",
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0-dev"
+    }
+  }
+}
